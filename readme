@@ -48,3 +48,4 @@ Esc — Quit game
 How It Works
 The core of this project is a raycasting algorithm that casts multiple rays per frame to calculate visible walls and mirrors. Rays reflect off mirrors up to 3 times, producing dynamic reflections that change as the player moves and rotates. Levels and mirror placements are loaded from JSON files, making it easy to create new puzzles.
 
+

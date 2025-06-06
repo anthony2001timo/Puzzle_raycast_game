@@ -1,0 +1,50 @@
+Raycast Puzzle Game with Dynamic Mirror Reflections
+
+Experience immersive 2.5D raycasting gameplay with dynamic mirror reflections!
+
+Overview
+This project implements a basic 2.5D raycasting engine inspired by classic games like Wolfenstein 3D, built with Python and Pygame. The engine renders a first-person perspective of a maze-like environment, featuring:
+
+Smooth player movement (forward, backward, rotation)
+
+Real-time depth-based shading for realistic lighting
+
+Interactive mirror tiles that dynamically reflect rays, altering the visual scene in real time
+
+Level design and interactive elements loaded from JSON files
+
+Object-oriented, clean, and modular code architecture
+
+Consistent 60 FPS performance in an 800x600 window
+
+Quick Start
+To run this project:
+source env/bin/activate  # Linux/macOS  
+.\env\Scripts\activate   # Windows PowerShell
+
+
+Activate your Python environment (if using virtual environments):
+
+source env/bin/activate  # Linux/macOS  
+.\env\Scripts\activate   # Windows PowerShell
+Install dependencies (only pygame required):
+
+pip install pygame
+Run the game by pressing the play button in your IDE or from the terminal:
+
+
+python main.py
+Controls
+W / Up Arrow — Move forward
+
+S / Down Arrow — Move backward
+
+A / Left Arrow — Rotate left
+
+D / Right Arrow — Rotate right
+
+Esc — Quit game
+
+How It Works
+The core of this project is a raycasting algorithm that casts multiple rays per frame to calculate visible walls and mirrors. Rays reflect off mirrors up to 3 times, producing dynamic reflections that change as the player moves and rotates. Levels and mirror placements are loaded from JSON files, making it easy to create new puzzles.
+
